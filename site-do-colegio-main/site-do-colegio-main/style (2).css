@@ -104,21 +104,6 @@
     justify-content: center;
 }
 
-.body{
-  background-color: rgb(120, 145, 230);
-  color: rgb(255, 255, 255);
-
-}
-.span{
-  color: rgb(117, 132, 199);
-}
-.contagem{
-  color: black;
-  background-color:red
-  padding: 20px 0;
-  text-align: center;
-}
-
 p{
   font-size: x-large;
   font-family: Arial;
@@ -143,14 +128,6 @@ footer{
   background-color: #DDA08A;
   color:#F9D0C1;
   border-bottom: 3px solid #6F3F2D;
-}
-
-.aba-conteudo{
-  display: none;
-  color: rgb(252, 0, 197);
-}
-.ativa{
-  display: block;
 }
 
 .docs{
