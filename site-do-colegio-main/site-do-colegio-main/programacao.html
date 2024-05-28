@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style (2).css">
+    <title>Nosso Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="titulo1">PROGRAMAÇÃO</h1>
+    <header class="cabecalho">
+        <ul class="cabecalho-lista">
+            <li id="Home" class="cabecalho-lista-item"> <a href="index.html">Home</a></li>
+            <li id="Projetos" class="cabecalho-lista-item"> <a href="projetos.html">Projetos</a></li>
+            <li id="Biotecnologia" class="cabecalho-lista-item"> <a href="biotec.html">Biotecnologia</a></li>
+            <li id="Empreendedorismo" class="cabecalho-lista-item"> <a href="empreendedorismo.html">Empreendedorismo</a>
+            </li>
+            <li id="Robótica" class="cabecalho-lista-item"> <a href="robotic.html">Robótica</a></li>
+        </ul>
+    </header>
+
+    <script src="main.js"></script>
+
+ <div class="docs">
+        <a href= "https://docs.google.com/document/d/e/2PACX-1vQd_FAJbV3Mh7Axf3sEvqC2JA5ibzpan50dhLkw7XFzzAjKoR_zqwvRN2TP45c_D2oHkMooHmDv-l7P/pub">Atividade Operadores</a>
+ </div>
+
+    <div class="bloco">
+        <h1>Operações Matemáticas</h1>
+     
+      <hr>
+       <label class="titulo"> Multiplicação</label> <br>
+          <input type ="number" id="num" class="input"> 
+       <label id="sinal"> x </label>
+          <input type ="number" id="num2" class="input"> <br>
+         <button type = "submit" id="conta" onclick="texto()" >Resultado</button>
+      <h2 id="show"></h2>
+      </div>
+     
+      <div class="bloco">
+      <label class="titulo"> Divisão</label> <br>
+          <input type ="number" id="div" class="input"><label id="sinal"> / </label>
+          <input type ="number" id="div2"class="input"> <br>
+        <button type="submit" id="clicar" onclick="numero()">Resultado</button>
+      <h2 id="show2"></h2>
+      </div>
+      
+      <div class="bloco">
+        <label class="titulo">Subtração</label> <br>
+          <input type="number" id="num2" class="input"> <label id="sinal"> - </label>
+          <input type="number" id="num3" class="input"> <br>
+        <button type="submit" id="resultado" onclick="number()">Resultado</button>
+      <h2 id="show3"></h2>
+      </div>
+      
+      <div class="bloco5">
+        <label class="titulo"> Potência(^2) </label> <br>
+        <input type="number" id="pote" class="input"> <br>
+        <button type="submit" onclick="result()"> Resultado </button>
+        <h2 id="show5"></h2>
+      </div>
+
+
+    <section class="teclado">
+        <button class="tecla tecla_pom">pom</button>
+        <button class="tecla tecla_clap">clap</button>
+        <button class="tecla tecla_tim">tim</button>
+        <button class="tecla tecla_puff">puff</button>
+        <button class="tecla tecla_splash">splash</button>
+        <button class="tecla tecla_toim">toim</button>
+        <button class="tecla tecla_psh">psh</button>
+        <button class="tecla tecla_tic">tic</button>
+        <button class="tecla tecla_tom">tom</button>
+    </section>
+
+    <audio src="./audiosSite/keya.wav" id="som_tecla_pom"></audio>
+    <audio src="./audiosSite/keyc.wav" id="som_tecla_clap"></audio>
+    <audio src="./audiosSite/keyd.wav" id="som_tecla_tim"></audio>
+    <audio src="./audiosSite/keye.wav" id="som_tecla_puff"></audio>
+    <audio src="./audiosSite/keyq.wav" id="som_tecla_splash"></audio>
+    <audio src="./audiosSite/keys.wav" id="som_tecla_toim"></audio>
+    <audio src="./audiosSite/keyw.wav" id="som_tecla_psh"></audio>
+    <audio src="./audiosSite/keyx.wav" id="som_tecla_tic"></audio>
+    <audio src="./audiosSite/keyz.wav" id="som_tecla_tom"></audio>
+
+    <footer class=" rodape">
+        <p class="texto-rodape">Este site foi criado unicamente para fins pedagógicos.</p>
+    </footer>
+
+    <script src="audio.js"></script>
+
+</body>
+</html>
