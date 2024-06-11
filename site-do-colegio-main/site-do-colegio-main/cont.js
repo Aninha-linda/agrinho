@@ -2,7 +2,7 @@ const botoes = document.querySelectorAll('.Objetivo');
 const texto = document.querySelectorAll('.aba-conteudo');
 //botoes.lenght     
 
-@media screem and (min-width:1024ppx) {/* tablet}
+@media screem and (min-width: 1024px) {/* tablet}
 
 for (let i = 0; i < botoes.length; i++) {
     console.log(i);
