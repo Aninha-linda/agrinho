@@ -277,18 +277,18 @@ p.caption {
   font-size: 10px;
 }
 
-@media screem and (min-width: 700px) {
+@media screen and (min-width: 700px) {
   .img-inicio{
     width: 30%;
   }
 }
 
-@media screem and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   /*tablet*/
 
 
 }
-@media screem and (min-width: 1728px) {
+@media screen and (min-width: 1728px) {
   /*computador*/
 
 }
