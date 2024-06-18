@@ -28,14 +28,19 @@ body{
   font-family:monospace;
 }
 
+.cabecalho{
+  display: flex;
+  justify-content: space-around;
+  background-color: #6F3F2D;
+  color: #F9D0C1;
+  align-items: center;
+}
 
 .cabecalho-lista {
   color: #FFECE4;
   align-items: center;
   background-color: #6F3F2D;
-  display: flex;
-  justify-content: space-around;
-}
+  }
 
 .cabecalho-lista-item {
   background-color: #6F3F2D;
@@ -57,25 +62,23 @@ body{
   color: #9B5940;
 }
 
-.cabecalho-menu {
-  align-items: center;
-  background-color: #6F3F2D;
-  color: #F9D0C1;
-  display: flex;
-  justify-content: space-around;
-}
 .cabecalho-lista a{
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
   text-decoration: none;
 }
 
-.botaomenu:checked~.lista-menu {
-  display: block;
-}
-.botaomenu {
+#menu{
   display: none;
 }
+
+
+.botaomenu:checked ~ .cabecalho-lista {
+  display: block;
+}
+
+
+
 /* #divBusca{
   background-color:#DDA08A;
   border:solid 1px;
