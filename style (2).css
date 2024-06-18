@@ -54,8 +54,7 @@ ul li{
 }
 
 .cabecalho-lista a{
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
+  color: var(--cor-sombreado-um);
   text-decoration: none;
 }
 
@@ -184,30 +183,11 @@ ul li{
 
 h3{
   text-align:right;
-  font-family:bradley hand, cursive;
 }
 
 .Resultado{
   color:#DDA08A;
 }
-
-.teclado {
-  background-color: #F9D0C1;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 20px;
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 10px;
-}
-
-.tecla {
-  background-color: #6F3F2D;
-  color: #FFECE4;
-  padding: 30px;
-}
-
 
 .card {
   display: flex;
@@ -233,7 +213,6 @@ p.caption {
   background-color: #6F3F2D;
   margin: -10px 5px 5px 5px;
   padding: 10px;
-  font-family: 'Roboto Condensed', sans-serif;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
@@ -282,7 +261,7 @@ p.caption {
 }
 @media screen and (min-width: 700px) {
   .img-inicio{
-    width: 100%;
+    width: 50%;
   }
   .intro{
     display: grid;
