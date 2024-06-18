@@ -34,6 +34,7 @@ body{
   background-color: #6F3F2D;
   color: #F9D0C1;
   align-items: center;
+  position: relative;
 }
 
 .cabecalho-lista {
@@ -63,6 +64,8 @@ body{
 
 .cabecalho-lista{
   display: none;
+  position: absolute;
+  top: 100%;
 }
 .botaomenu:checked ~ .cabecalho-lista {
   display: block;
