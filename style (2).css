@@ -68,8 +68,10 @@ body{
 }
 .cabecalho-menu a{
   font-family: Arial, Helvetica, sans-serif;
-  
+  color: #fff;
+  text-decoration: none;
 }
+
 .botaomenu:checked~.lista-menu {
   display: block;
 }
