@@ -33,7 +33,7 @@
     background-color: #6F3F2D;
     display: flex;
     justify-content: space-around;
-    margin: 0;
+    margin: 10px 0;
 }
 
 .cabecalho-lista-item {
