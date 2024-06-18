@@ -38,6 +38,7 @@
 }
 
 .cabecalho-lista-item {
+  background-color: #6F3F2D;
     display: inline-block;
     margin: 0 16px;
     padding: 24px 0;
