@@ -10,7 +10,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: var(--cor-background-um);
+    background-color: var(--cor-background-um);
 }
 @media screem and (min-width: 1024px) {/*tablet*/}
 @media screem and (min-width: 1728px) {/*computador*/}
