@@ -45,12 +45,14 @@ body{
 
 .cabecalho-lista-item {
   background-color: #6F3F2D;
-  display: inline-block;
   margin: 0 16px;
   padding: 24px 0;
   font-size: 24px;
 }
 
+ul li{
+  list-style: none;
+}
 
 .cabecalho-lista a{
   font-family: Arial, Helvetica, sans-serif;
