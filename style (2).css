@@ -72,7 +72,9 @@ ul li{
   display: block;
 }
 
-
+.img-inicio{
+  width: 90%;
+}
 
 /* #divBusca{
   background-color:#DDA08A;
@@ -275,6 +277,11 @@ p.caption {
   font-size: 10px;
 }
 
+@media screem and (min-width: 700px) {
+  .img-inicio{
+    width: 30%;
+  }
+}
 
 @media screem and (min-width: 1024px) {
   /*tablet*/
