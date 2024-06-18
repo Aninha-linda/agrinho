@@ -35,7 +35,6 @@ body{
   background-color: #6F3F2D;
   display: flex;
   justify-content: space-around;
-  margin: 10px 0;
 }
 
 .cabecalho-lista-item {
@@ -64,7 +63,6 @@ body{
   color: #F9D0C1;
   display: flex;
   justify-content: space-around;
-  margin: 10px 0;
 }
 .cabecalho-lista a{
   font-family: Arial, Helvetica, sans-serif;
