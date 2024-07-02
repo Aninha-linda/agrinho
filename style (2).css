@@ -77,39 +77,6 @@ ul li{
   background-attachment: fixed;
 }
 
-
-/* #divBusca{
-  background-color:#DDA08A;
-  border:solid 1px;
-  border-radius:15px;
-  width:300px;
-}
-#btnBusca{
-  float:left;
-  width: 15%;
-  margin: 30 0 30 0px;
-  padding: 30px;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-}
-#txtBusca{
-  color: #F9D0C1;
-  background-color:transparent;
-  padding-left:5px;
-  font-style:italic;
-  font-size:18px;
-  border:none;
-  height:32px;
-  width:260px;
-} */
-.escola {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-    justify-content: center;
-  }
-  
   p{
     margin: 30px 0;
     font-family: Arial;
@@ -117,14 +84,23 @@ ul li{
     color: #6F3F2D;
   }
   
-  .Objetivo{
-    background-color: #DF847B;
-    color: #F9D0C1;
-    text-align: center;
-    font-size: large;
-    cursor: pointer;
-  }
+  p.caption {
+  background-color: #6F3F2D;
+  margin: -10px 5px 5px 5px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
 
+.a {
+  margin: 40px 0 0 0;
+  font-size: 20px;
+  text-align: left;
+  color: #DDA08A;
+  font-display: flex;  
+}
+  
   .ativo{
     background-color: #DDA08A;
     color:#F9D0C1;
@@ -192,22 +168,6 @@ h3{
   object-fit: cover;
 }
 
-p.caption {
-  background-color: #6F3F2D;
-  margin: -10px 5px 5px 5px;
-  padding: 10px;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.a {
-  margin: 40px 0 0 0;
-  font-size: 20px;
-  text-align: left;
-  color: #DDA08A;
-  font-display: flex;  
-}
 .rodape {
   display: flex;
   align-items: center; 
@@ -244,3 +204,29 @@ p.caption {
   /*computador*/
 
 }
+
+/* #divBusca{
+  background-color:#DDA08A;
+  border:solid 1px;
+  border-radius:15px;
+  width:300px;
+}
+#btnBusca{
+  float:left;
+  width: 15%;
+  margin: 30 0 30 0px;
+  padding: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+#txtBusca{
+  color: #F9D0C1;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+} */
