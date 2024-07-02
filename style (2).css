@@ -86,10 +86,9 @@ ul li{
 }
 
 .img-projeto{
-  display: block;
-  align-items: center;
   margin: 50px;
-  width: 50%
+  padding: 100px;
+  width: 70%;
 }
 
 .conteudo-projeto{
