@@ -59,6 +59,27 @@ ul li{
   display: block;
 }
 
+.container {
+  max-width: 1200px; /* Define a largura máxima do container */
+  margin: 0 auto; /* Centraliza o container na página */
+  display: flex; /* Usa flexbox para posicionar as colunas */
+}
+
+/* Estilo das colunas */
+.coluna {
+  flex: 1; /* Faz as colunas ocuparem o mesmo espaço */
+  padding: 20px; /* Adiciona um espaçamento interno às colunas */
+}
+
+/* Estilo específico da coluna esquerda */
+.coluna-esquerda {
+  background-color: var(--cor-background-um); /* Cor de fundo da coluna esquerda */
+}
+
+/* Estilo específico da coluna direita */
+.coluna-direita {
+  background-color: var(--cor-background-um); /* Cor de fundo da coluna direita */
+}
 .aba-conteudo{
   align-items: center;
 }
