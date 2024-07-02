@@ -208,6 +208,9 @@ h3{
 
 }
 @media screen and (min-width: 700px) {
+  .img-inicio{
+    width: 90%;
+  }
   .intro{
     display: grid;
     grid-template-columns: 40% 60%;
