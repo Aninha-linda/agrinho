@@ -211,6 +211,8 @@ h3{
     width: 90%;
   }
   .intro{
+    display: grid;
+    grid-template-columns: 40% 60%;
   }
 }
 
