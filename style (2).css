@@ -86,7 +86,8 @@ ul li{
     font-family: Arial;
     text-align: center;
     color: #6F3F2D;
-  } 
+  }
+  
   p.caption {
   background-color: #6F3F2D;
   margin: -10px 5px 5px 5px;
@@ -103,12 +104,12 @@ ul li{
   color: #DDA08A;
   font-display: flex;  
 }
+  
 a:-webkit-any-link {
-  display: none;
+  color: var(--cor-background-um);
   cursor: pointer;
   text-decoration: underline;
 }
-
   .ativo{
     background-color: #DDA08A;
     color:#F9D0C1;
