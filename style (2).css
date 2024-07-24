@@ -195,10 +195,22 @@ h3{
 
 }
 
+.projeto{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+  margin: 0 3%;
+}
+
+.partes{
+  margin: 3%;
+}
+
 @media screen and (min-width: 700px) {
   .img-inicio{
     width: 90%;
   }
+}
   
 @media screen and (min-width: 1024px) {
   /*tablet*/
@@ -235,3 +247,5 @@ h3{
   height:32px;
   width:260px;
 } */
+
+
