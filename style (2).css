@@ -49,7 +49,6 @@ ul li{
 #menu{
   display: none;
 }
-
 .cabecalho-lista{
   display: none;
   position: absolute;
@@ -65,22 +64,6 @@ ul li{
   display: flex; /* Usa flexbox para posicionar as colunas */
 }
 
-/* Estilo das colunas */
-.coluna {
-  flex: 1; /* Faz as colunas ocuparem o mesmo espaço */
-  padding: 20px; /* Adiciona um espaçamento interno às colunas */
-  
-}
-
-/* Estilo específico da coluna esquerda */
-.coluna-esquerda {
-  background-color: var(--cor-background-um); /* Cor de fundo da coluna esquerda */
-}
-
-/* Estilo específico da coluna direita */
-.coluna-direita {
-  background-color: var(--cor-background-um); /* Cor de fundo da coluna direita */
-}
 .aba-conteudo{
   align-items: center;
 }
@@ -103,8 +86,7 @@ ul li{
     font-family: Arial;
     text-align: center;
     color: #6F3F2D;
-  }
-  
+  } 
   p.caption {
   background-color: #6F3F2D;
   margin: -10px 5px 5px 5px;
@@ -121,7 +103,12 @@ ul li{
   color: #DDA08A;
   font-display: flex;  
 }
-  
+a:-webkit-any-link {
+  display: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
   .ativo{
     background-color: #DDA08A;
     color:#F9D0C1;
@@ -206,16 +193,12 @@ h3{
   margin: 10px;
 
 }
+
 @media screen and (min-width: 700px) {
   .img-inicio{
     width: 90%;
   }
-  .intro{
-    display: grid;
-    grid-template-columns: 40% 60%;
-  }
-}
-
+  
 @media screen and (min-width: 1024px) {
   /*tablet*/
 
